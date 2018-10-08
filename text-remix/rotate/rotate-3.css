@@ -1,0 +1,51 @@
+
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poiret One', cursive;
+    font-size: 15px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 250px 250px;
+    grid-gap: 10px;
+}
+
+
+#one, #two, #three, #four {
+    padding: 15px;
+}
+
+
+#one {
+    background-color: black;
+    color: rgba(255,255,255,0.5);
+    
+}
+
+#two, #three {
+    border: 1px solid black;
+    transform: scaleY(-1);
+}
+
+#four {
+    background-color: black;
+    color: rgba(255,255,255,0.5);
+    
+}
+
+#author {
+    padding-top: 15px;
+}
+
+  
+
+

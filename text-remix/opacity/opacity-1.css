@@ -1,0 +1,75 @@
+
+
+html, body, div.wrapper{
+    height: 100%;
+    width: 100%;
+    margin: 0px auto;
+    padding: 0;
+    font-family: 'Poiret One', cursive;
+
+}
+
+#wrapper {
+    margin: auto;
+    margin-top: 60px;
+    width: 50%;
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    flex-direction: column;
+    
+  }
+
+.poem {
+    cursor: pointer;
+    margin-top: 15px;
+    align-items: flex-start;
+  }
+
+  span {
+    font-size: 20px;
+  }
+
+  #number {
+    font-size: 20px;
+  }
+
+  .hide {
+    opacity: 0;
+    transition: all ease 15s;
+  }
+  
+  .hide:hover {
+    opacity: 1;
+  }
+
+  .hint {
+    -webkit-animation: fadeinout 15s 1 linear ;
+    animation: fadeinout 15s 1 ease-in ;
+   }
+
+  @-webkit-keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+  
+  @keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+
+  .author {
+    font-size: smaller;
+    margin-top: 40px;
+  }
+
+  
+  @media (max-width: 650px) {
+    #wrapper {
+        font-size: 18px;
+    }
+}
+
+  
+
+

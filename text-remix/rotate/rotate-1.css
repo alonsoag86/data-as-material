@@ -1,0 +1,25 @@
+
+
+body {
+    font-family: 'Quattrocento', serif;
+}
+  
+  #rotate {
+    width: 512px;
+    background-color: rgba(0,0,0,0.1);
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 25px;
+  }
+  
+  #unique {
+    font-size: 100px;
+    opacity: 0.1;
+    padding-left:420px;
+  }
+  
+  
