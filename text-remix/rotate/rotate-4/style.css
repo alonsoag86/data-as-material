@@ -1,0 +1,57 @@
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poiret One', cursive;
+    font-size: 15px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#p4 {
+    transform: rotate(-20deg);
+}
+
+#p5 {
+    transform: rotate(-20deg);
+}
+
+#p6 {
+    transform: rotate(-20deg);
+}
+
+#p7 {
+    transform: rotate(-40deg);
+}
+
+#p8 {
+    transform: rotate(-40deg);
+}
+
+#p9 {
+    transform: rotate(-40deg);
+}
+
+#p10 {
+    transform: rotate(-60deg);
+}
+
+#p11 {
+    transform: rotate(-60deg);
+}
+
+#p12 {
+    transform: rotate(-60deg);
+}
+
+p{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    line-height: 60px;
+
+  }
+  

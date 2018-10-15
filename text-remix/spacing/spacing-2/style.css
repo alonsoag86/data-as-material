@@ -6,11 +6,13 @@ body {
 
 div {
     position: fixed;
+    
 }
 
 #fixed-top {
     top:0;
     margin-top: 30px;
+    letter-spacing:25px
 }
 
 #author {
@@ -23,6 +25,7 @@ div {
 #fixed-bottom {
     bottom: 0px;
     margin-bottom: 30px;
+    letter-spacing:25px
 }
 
 

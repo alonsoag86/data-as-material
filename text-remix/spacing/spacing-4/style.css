@@ -1,0 +1,18 @@
+ 
+body {
+    font-family: 'Quattrocento', serif;
+    font-size: 40px;
+}
+
+.poem {
+    margin-top: 70px;
+    line-height: 30px;
+    letter-spacing: 40px;
+}
+ 
+ #author {
+    letter-spacing:0px;
+    margin-top: 100px;
+    font-size: 20px;
+ }
+
