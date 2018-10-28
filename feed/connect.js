@@ -23,4 +23,3 @@ newsapi.v2.everything({
 }
 
 
-
