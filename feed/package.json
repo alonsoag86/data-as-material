@@ -1,0 +1,15 @@
+{
+  "name": "feed",
+  "version": "1.0.0",
+  "description": "News Feed",
+  "main": "connect.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "newsapi": "^2.4.0"
+  }
+}
