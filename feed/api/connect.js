@@ -6,12 +6,12 @@ const NewsAPI = require('newsapi');
 const newsapi = new NewsAPI(process.env.MY_KEY)
 
 
-for (let i = 0; i < 11; i++) {
+for (let i = 1; i < 11; i++) {
 
 newsapi.v2.everything({
     q: 'mars, climate change',
-    from: '2018-09-30',
-    to: '2018-10-27',
+    from: '2018-10-04',
+    to: '2018-11-03',
     language: 'en',
     sortBy: 'relevancy',
     page: i

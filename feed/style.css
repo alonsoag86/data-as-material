@@ -1,0 +1,50 @@
+
+
+@font-face {
+    font-family: "Space";
+    src: url("/Fonts/Space/SpaceMono-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Space';
+}
+
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color:white;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color: black;
+    color: white;
+  }
+  
+  /* Content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
