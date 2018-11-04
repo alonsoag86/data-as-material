@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: "Space";
-    src: url("/Fonts/Space/SpaceMono-Regular.ttf") format('truetype');
+    src: url("./Space/SpaceMono-Regular.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
   }
