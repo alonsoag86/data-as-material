@@ -25,6 +25,16 @@ Promise.all(climatePromises).then(earthNews => {
             );
         }
     })
+    
+    $('.multipleslides').each(function(){
+        var $this = this;
+        $('> :gt(0)', $this).hide();
+        setInterval(function(){
+        $('> :first-child',$this).fadeOut()
+            .next().fadeIn().end()
+            .appendTo($this);
+        }, 6000);
+    })
 })
 
 
